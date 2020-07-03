@@ -1,0 +1,204 @@
+(ml)  ✘ idrael@Candice  ~/git/MNE_Epi   master ●  ./MNE_Epi.sh /Users/idrael/Playground/MEG/BF28011991
+
+
+The following raw_files have been detected:
+BF28011991_Block1_trans_tsss.fif : /Users/idrael/Playground/MEG/BF28011991/data/BF28011991_Block1_trans_tsss.fif
+BF28011991_Block2_trans_tsss.fif : /Users/idrael/Playground/MEG/BF28011991/data/BF28011991_Block2_trans_tsss.fif
+
+
+The following eve_files have been detected:
+BF28011991_Block2_Events_processed.csv : /Users/idrael/Playground/MEG/BF28011991/derivatives/BF28011991_Block2_Events_processed.csv
+BF28011991_Block1_Events_processed.csv : /Users/idrael/Playground/MEG/BF28011991/derivatives/BF28011991_Block1_Events_processed.csv
+
+
+
+
+
+--> Now processing rawfile: /Users/idrael/Playground/MEG/BF28011991/data/BF28011991_Block1_trans_tsss.fif 
+--> with eventfile: /Users/idrael/Playground/MEG/BF28011991/derivatives/BF28011991_Block1_Events_processed.csv
+Opening raw data file /Users/idrael/Playground/MEG/BF28011991/data/BF28011991_Block1_trans_tsss.fif...
+/Users/idrael/git/MNE_Epi/MNE_Source_localization.py:103: RuntimeWarning: This filename (/Users/idrael/Playground/MEG/BF28011991/data/BF28011991_Block1_trans_tsss.fif) does not conform to MNE naming conventions. All raw files should end with raw.fif, raw_sss.fif, raw_tsss.fif, raw.fif.gz, raw_sss.fif.gz, raw_tsss.fif.gz or _meg.fif
+  raw = mne.io.read_raw_fif(rawfile)
+    Range : 42000 ... 1264999 =     42.000 ...  1264.999 secs
+Ready.
+Current compensation grade : 0
+Using up to 900 segments
+Number of samples used : 180000
+[done]
+54.353        int64
+ignore_me    object
+o             int64
+dtype: object
+
+
+
+
+
+
+
+
+
+
+
+
+Event-Names for event_dict: ['A_Spike_Group' 'Another_Spike_Group' 'cardiac']
+
+
+
+
+Event dict is:
+{'ignore_me': 0, 'A_Spike_Group': 1, 'Another_Spike_Group': 2, 'cardiac': 3}
+
+
+
+Events as loaded via pandas:      54.353 ignore_me  o
+0     55372   cardiac  2
+1     56326   cardiac  2
+2     57240   cardiac  2
+3     58265   cardiac  2
+4     59291   cardiac  2
+5     60241   cardiac  2
+6     61129   cardiac  2
+7     62108   cardiac  2
+8     63126   cardiac  2
+9     64124   cardiac  2
+10    65031   cardiac  2
+11    65944   cardiac  2
+12    66936   cardiac  2
+13    67933   cardiac  2
+14    68866   cardiac  2
+15    69800   cardiac  2
+16    70831   cardiac  2
+17    71866   cardiac  2
+18    72798   cardiac  2
+19    73713   cardiac  2
+20    74707   cardiac  2
+21    75753   cardiac  2
+22    76707   cardiac  2
+23    77649   cardiac  2
+24    78652   cardiac  2
+25    79678   cardiac  2
+26    80621   cardiac  2
+27    81564   cardiac  2
+28    82577   cardiac  2
+29    83624   cardiac  2
+..      ...       ... ..
+117  158654   cardiac  2
+118  159609   cardiac  2
+119  160650   cardiac  2
+120  161694   cardiac  2
+121  162657   cardiac  2
+122  163588   cardiac  2
+123  164592   cardiac  2
+124  165610   cardiac  2
+125  166609   cardiac  2
+126  167528   cardiac  2
+127  168503   cardiac  2
+128  169524   cardiac  2
+129  170554   cardiac  2
+130  171523   cardiac  2
+131  172504   cardiac  2
+132  173572   cardiac  2
+133  174615   cardiac  2
+134  175590   cardiac  2
+135  176564   cardiac  2
+136  177602   cardiac  2
+137  178652   cardiac  2
+138  179628   cardiac  2
+139  180623   cardiac  2
+140  181689   cardiac  2
+141  182724   cardiac  2
+142  183679   cardiac  2
+143  184692   cardiac  2
+144  185734   cardiac  2
+145  186755   cardiac  2
+146  187708   cardiac  2
+
+[147 rows x 3 columns]
+
+
+
+Events after name stripping:      54.353  ignore_me  o
+0     55372          0  2
+1     56326          0  2
+2     57240          0  2
+3     58265          0  2
+4     59291          0  2
+5     60241          0  2
+6     61129          0  2
+7     62108          0  2
+8     63126          0  2
+9     64124          0  2
+10    65031          0  2
+11    65944          0  2
+12    66936          0  2
+13    67933          0  2
+14    68866          0  2
+15    69800          0  2
+16    70831          0  2
+17    71866          0  2
+18    72798          0  2
+19    73713          0  2
+20    74707          0  2
+21    75753          0  2
+22    76707          0  2
+23    77649          0  2
+24    78652          0  2
+25    79678          0  2
+26    80621          0  2
+27    81564          0  2
+28    82577          0  2
+29    83624          0  2
+..      ...        ... ..
+117  158654          0  2
+118  159609          0  2
+119  160650          0  2
+120  161694          0  2
+121  162657          0  2
+122  163588          0  2
+123  164592          0  2
+124  165610          0  2
+125  166609          0  2
+126  167528          0  2
+127  168503          0  2
+128  169524          0  2
+129  170554          0  2
+130  171523          0  2
+131  172504          0  2
+132  173572          0  2
+133  174615          0  2
+134  175590          0  2
+135  176564          0  2
+136  177602          0  2
+137  178652          0  2
+138  179628          0  2
+139  180623          0  2
+140  181689          0  2
+141  182724          0  2
+142  183679          0  2
+143  184692          0  2
+144  185734          0  2
+145  186755          0  2
+146  187708          0  2
+
+[147 rows x 3 columns]
+
+
+
+Events.dtypes: 54.353       int64
+ignore_me    int64
+o            int64
+dtype: object
+Event sample numbers after names were dropped - First: 55372
+Event sample numbers after names were dropped - Last: 187708
+Reading 0 ... 1222999  =      0.000 ...  1222.999 secs...
+Traceback (most recent call last):
+  File "/Applications/anaconda3/envs/ml/lib/python3.7/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/Applications/anaconda3/envs/ml/lib/python3.7/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/Users/idrael/git/MNE_Epi/MNE_Source_localization.py", line 121, in <module>
+    raw.add_events(events, stim_channel='STI014', replace=True)
+  File "/Applications/anaconda3/envs/ml/lib/python3.7/site-packages/mne/io/base.py", line 1640, in add_events
+    % (self.first_samp, self.last_samp))
+ValueError: event sample numbers must be between 42000 and 1264999
